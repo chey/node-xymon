@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "author": "chey <chey@users.noreply.github.com>",
   "license": "ISC",
