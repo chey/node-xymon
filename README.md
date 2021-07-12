@@ -34,6 +34,13 @@ Replace `host.docker.internal` with the address of your Xymon server/daemon (Xym
 * URL not supported
 * 0.0.0.0 RECIPIENT not supported
 
+## Notes
+
+### Dropping and Renaming
+In order for `drop` and `rename` commands to work the server needs to be configured to allow the sending IP.
+
+See the `--admin-senders=` configuration within the [Xymond documentaton](https://www.xymon.com/help/manpages/man8/xymond.8.html) for additional information.
+
 
 ## References
 * https://www.xymon.com/help/manpages/man1/xymon.1.html
