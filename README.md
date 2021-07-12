@@ -4,6 +4,8 @@ Xymon client written in NodeJS.
 
 A drop in replacement for the original Xymon client with some added features.
 
+![Xymon view](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Xymon.png/320px-Xymon.png)
+
 ## Getting Started
 
 ### Codebase/NPM
