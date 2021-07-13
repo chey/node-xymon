@@ -1,4 +1,4 @@
-# Xymon Client
+# Xymon
 
 Xymon client written in NodeJS.
 
@@ -8,18 +8,19 @@ A drop in replacement for the original Xymon client with some added features.
 
 ## Getting Started
 
-### Codebase/NPM
 Clone repo
 
+### NPM
 ```
 npm i -g .
 xymon ping
+xymon --help
 ```
 
 ### Docker
 ```
-docker build -t xymon-client .
-docker run --rm xymon-client host.docker.internal ping
+docker build -t xymon .
+docker run --rm xymon host.docker.internal ping
 ```
 Replace `host.docker.internal` with the address of your Xymon server/daemon (Xymond).
 
