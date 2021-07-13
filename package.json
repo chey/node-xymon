@@ -11,6 +11,7 @@
   "author": "chey <chey@users.noreply.github.com>",
   "license": "ISC",
   "bin": "lib/bin.js",
+  "repository": "github:chey/node-xymon",
   "dependencies": {
     "argparse": "^2.0.1",
     "csvtojson": "^2.0.10",
