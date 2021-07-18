@@ -17,6 +17,8 @@ xymon ping
 xymon --help
 ```
 
+`cp .env.example .env` and update `.env` if your Xymon daemon is running somewhere other than `localhost:1984`.
+
 ### Docker
 ```
 docker build -t xymon .
